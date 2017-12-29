@@ -1,0 +1,19 @@
+<html> 
+<head> <h3> Bengtson Design Choices, cs342, Homework 1 </h3> </head>
+<body>
+<b>Name:</b> Peter Bengtson<p>
+
+I made an abstract class for shapes, which had child classes Rectangle and Circle. <br>
+This allowed for more versitility as other classes did not need to be aware if they were using Rectangles or Circles. <p>
+
+I used doublebuffering and had the timer call a frameRefresh function every 17 ms(1/60th of a second). <br>
+This resulted in smoother animation and clearer to understand than multiple previous attempts. <p>
+
+I decided to have the buttons as a small row in order to allow for more space for shapes. <br>
+I then treated the bottom of the buttons as the y value limit instead of the very top to remove overlap conflicts. <p>
+
+The organization could have been improved with a better understanding of the concepts and java api in advance. <br>
+Specifically, I would have liked to have been able to clean up collision detection to be able to easily add interobject collisions.
+ 
+</body> 
+</html>
