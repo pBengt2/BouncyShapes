@@ -5,9 +5,12 @@ This program was created in cs342 at UIC. The assignment was to create shapes on
 ## How to use
 
 Left click to drop a shape.
+
 Right click to switch between shapes (removes shapes currently on the screen).
 -Default shape is a rectangle, the other shape is a circle.
+
 The buttons at the top left change the radius(size) of the circles.
+
 The buttons at the top right change the tesselation(smoothness) of the circles. Enjoy! 
 
 ## How to run
